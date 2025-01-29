@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llm-qa-roleplay"
+version = "0.1.0"
+description = "Just me playing around with LLM for solving Question Answer task"
+authors = ["Eymeric Chauchat <eymeric.chauchat@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+vllm = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
